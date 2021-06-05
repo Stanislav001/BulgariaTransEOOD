@@ -1,0 +1,357 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ .paragraf{
+    display: inline-block;
+    color: white;
+    margin-left: 45%;
+    padding: 0%;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: 40%;
+}
+
+div .NavBar{
+    display: inline;
+    text-align:center;
+    list-style:none;
+    float: center;
+    margin:1px;
+
+    }
+div a{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    width: 280px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+ .NavBar a:hover {
+    background-color: darkturquoise;
+}
+#hero{
+    background-image:url(./back.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+}
+
+
+
+ .title1{
+     color: black;
+     margin-top: 5%;
+     text-decoration: underline;
+     font-size: 50px;
+ }
+
+
+.img {
+    background-color: white;
+    width: 30%;
+}
+
+
+.about-container{
+    margin:10%;
+	width:80%;
+	height:330px;
+	background:gray;
+	border-radius:20px;
+	box-shadow:20px 20px 20px rgba(0,0,0,0.5);
+    display: flex;
+	position: relative;
+	justify-content:space-evenly;
+    align-items: center;
+}
+.about-container img{
+    height:250px;
+    border: 3px solid black;
+    border-radius: 32%;
+}
+.about-text{
+    width:500px;
+    margin-top: 3%;
+} 
+
+h2{
+    font-size: 50px;
+    margin-left:35%;
+    text-decoration: underline;
+}
+
+.about-container button{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+}
+
+.galery-container{
+    margin:10%  ;
+	width:80%;
+	height:330px;
+	background:gray;
+	border-radius:20px 90px;
+	box-shadow:20px 20px 20px rgba(0,0,0,0.2);
+    display: flex;
+	position: relative;
+	justify-content:space-evenly;
+    align-items: center;
+}
+
+.galery-container img{
+    height:250px;
+    border: 3px solid black;
+    border-radius: 10% 30%;;
+}
+
+.galery-text{
+    width:500px;
+    margin-left: 0%;
+    text-align: justify;
+}
+
+.galery-container a{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    width: 280px;
+    text-decoration: none;
+    width: 42%;
+    background-color: gray;
+    color: black;
+    border: 3px solid black;
+    
+}
+.IMG{
+    position: relative;
+    width: 42%;
+    color: white;
+    font-size: 30px;
+    border: 3px solid black;
+    background-color: white;
+    margin-left: 5%;
+    margin-top:5%   
+}
+
+
+.contact-container{
+    margin:10%  ;
+	width:80%;
+	height:330px;
+	background:gray;
+	box-shadow:20px 20px 20px rgba(0,0,0,0.2);
+    display: flex;
+	position: relative;
+	justify-content:space-evenly;
+    align-items: center;
+}
+
+.contact-container img{
+    height:250px;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+
+.contact-text{
+    width:500px;
+    margin-left: 0%;
+    text-align: justify;
+}
+
+.contact-container a{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    width: 280px;
+    text-decoration: none;
+    width: 42%;
+    background-color: gray;
+    color: black;
+    border: 3px solid black;   
+}
+
+.Contact{
+    position: relative;
+    width: 42%;
+    color: white;
+    font-size: 30px;
+    border: 3px solid black;
+    background-color: white;
+    margin-top:3%   
+}
+
+.team-container{
+    margin:10%  ;
+	width:80%;
+	height:330px;
+	background:gray;
+    box-shadow:20px 20px 20px rgba(0,0,0,0.2);
+    border-radius: 50% 80%;
+    display: flex;
+	position: relative;
+	justify-content:space-evenly;
+    align-items: center;
+}
+
+.team-container img{
+    height:250px;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+
+.team-text{
+    width:500px;
+    margin-left: 0%;
+    text-align: justify;
+}
+
+.team-container a{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    width: 280px;
+    text-decoration: none;
+    width: 42%;
+    background-color: gray;
+    color: black;
+    border: 3px solid black;   
+}
+
+.Team{
+    position: relative;
+    width: 42%;
+    color: white;
+    font-size: 30px;
+    border: 3px solid black;
+    background-color: white;
+    margin-top:3%   
+}
+
+
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+    margin-bottom: 1%;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+
+
+
+main{
+    height: 70vh;
+}
+footer{
+    background: #212121;
+    padding: 50px 20px;
+}
+footer .container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .ftr h3{
+    font-size: 1.4em;
+    margin-bottom: 1.2em;
+    color: #fff;
+}
+footer .content{
+    list-style:none;
+    text-decoration: none;
+    background-color: white;
+}
+footer .content a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .6;
+    line-height: 30px;
+    transition: .3s ease opacity;
+}
+footer .content a:hover{
+    opacity: 1;
+}
+footer .ftr{
+    flex-basis: 18%;
+    color: white;
+}
+@media only screen and (max-width: 540px){
+    footer .ftr{
+        flex-basis: 80%;
+        margin: 0 auto;
+}
+
+
