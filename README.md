@@ -1,4 +1,4 @@
-*Официален сайт на Bulgaria Trans EOOD.
+* Официален сайт на Bulgaria Trans EOOD.
 
 Bulgaria Trans EOOD е една от най-популярните български фирми към този момент.
 
